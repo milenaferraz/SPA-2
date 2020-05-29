@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul, li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.header{
+    background-color: rgb(252, 166, 117);
+    height: 8vh;
+   
+
+    
+        
+}
+
+    .nav-lista{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+#root{
+width: 100vh;
+height: 80vh;
+padding: 20px;
+
+}    
+
+.form{
+    padding: 30px;
+}
+
+.footer{
+    background-color: rgb(239, 241, 234);
+    height: 60px;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+}

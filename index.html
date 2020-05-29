@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>SPA</title>
+</head>
+<body>
+   <header class="header">
+        <div class = "logo">
+             <h4>the nav</h4>
+        </div>
+       <nav class="header-nav">
+           <ul class="nav-lista">
+               <li class="nav-item">
+                    <a href="/#">Home</a>                
+               </li>
+               <li class="nav-item">
+                    <a href="/#about">About</a>  
+               </li>
+               <li class="nav-item">
+                    <a href="/#contacts">Contacts</a>  
+               </li>
+               <li class="nav-item">
+                <a href="/#login">Login</a>  
+           </li>
+           </ul>
+       </nav>
+   </header>
+   <main id="root">
+    
+   </main>
+   <footer class="footer">
+    <form class="form">
+        <label>E-mail:</label>
+        <input type="text" id="input" />
+        <label>Senha:</label>
+        <input type="text" id="senha"/>
+        <button id="button">Login</button>    
+        </form>
+   </footer>
+   
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+  
+   
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+   
+   <script>
+     // Your web app's Firebase configuration
+     var firebaseConfig = {
+       apiKey: "AIzaSyAujpvf2u9ejdy6AsEh93kj-3yQKDmNUQs",
+       authDomain: "social-network-4801d.firebaseapp.com",
+       databaseURL: "https://social-network-4801d.firebaseio.com",
+       projectId: "social-network-4801d",
+       storageBucket: "social-network-4801d.appspot.com",
+       messagingSenderId: "997757047914",
+       appId: "1:997757047914:web:e88c4fb558eeef8f116613"
+     };
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+   </script>
+
+
+   <script src="index.js" type="module"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+   
+   </body>
+</html>
